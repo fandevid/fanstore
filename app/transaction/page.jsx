@@ -5,10 +5,6 @@ import NavbarTop from "@/components/NavbarTop";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
-export const metadata = {
-  title: "Transaksimu",
-};
-
 const PageTransaction = () => {
   const [transactions, setTransactions] = useState([]);
   useEffect(() => {
