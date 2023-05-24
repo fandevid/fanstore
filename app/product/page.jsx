@@ -80,8 +80,8 @@ const PageProduct = () => {
   }
 
   return (
-    <div className="">
-      <NavbarTop />
+    <>
+      <NavbarTop type={"search"} inputOpt={{ placeholder: "Cari Produk" }} />
       <div className="container">
         <div className="grid grid-cols-2 gap-y-3 gap-x-2 m-2">
           {products.map((product) => {
@@ -119,7 +119,7 @@ const PageProduct = () => {
         </div>
       </div>
       <NavbarBottom />
-    </div>
+    </>
   );
 };
 

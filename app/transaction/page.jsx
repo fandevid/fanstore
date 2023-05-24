@@ -59,7 +59,7 @@ const PageTransaction = () => {
 
   return (
     <div>
-      <NavbarTop />
+      <NavbarTop type={"search"} />
       <main>
         <div className="container px-2">
           <div className="flex-col flex gap-3">

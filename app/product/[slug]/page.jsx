@@ -21,7 +21,7 @@ const PageDetailProduct = ({ params }) => {
 
   return (
     <>
-      <NavbarTop searchBar={false} label="Detail" />
+      <NavbarTop label="Detail Produk" />
       <div className="container mt-1 max-sm:px-2">
         <div className="mb-1 rounded-lg overflow-hidden">
           <Image
@@ -67,7 +67,7 @@ const PageDetailProduct = ({ params }) => {
                 onClick={() => setQty(qty + 1)}
                 className="bg-gray-100 rounded bg-opacity-50 w-8 h-8 flex my-auto"
               >
-                <i className="m-auto bx bx-plus"></i>
+                <i className="m-auto bx bx-plus" />
               </button>
               <input
                 type="text"
@@ -85,7 +85,7 @@ const PageDetailProduct = ({ params }) => {
                 }}
                 className="bg-gray-100 rounded bg-opacity-50 w-8 h-8 flex my-auto"
               >
-                <i className="m-auto bx bx-minus"></i>
+                <i className="m-auto bx bx-minus" />
               </button>
             </div>
           </div>

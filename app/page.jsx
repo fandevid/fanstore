@@ -63,7 +63,7 @@ export default function Home() {
 
   return (
     <>
-      <nav className="z-50 bg-white sticky top-0 text-opacity-50">
+      {/* <nav className="z-50 bg-white sticky top-0 text-opacity-50">
         <div className="container">
           <div className="flex gap-4 px-4 py-3 items-center">
             <div className="w-8 h-8 rounded-full overflow-hidden">
@@ -88,7 +88,20 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </nav>
+      </nav> */}
+      <NavbarTop type={"custom"}>
+        <div className="flex items-center gap-3">
+          <div className="w-8 h-8 rounded-full overflow-hidden">
+            <Image
+              src={"/img/profile/1.jpg"}
+              alt="Muhammad Irfan"
+              width={400}
+              height={400}
+            />
+          </div>
+          <h5 className="text-green-700 font-semibold">Hi, Irfan!</h5>
+        </div>
+      </NavbarTop>
       <main>
         <div className="container px-4">
           <div className="mb-8 mt-6">
